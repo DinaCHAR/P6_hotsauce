@@ -7,5 +7,28 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.11.1",
+    "mongoose-unique-validator": "^3.0.0",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "bcryptjs": "^2.4.3",
+    "mongo-mask": "^1.1.0",
+    "dotenv": "^10.0.0",
+    "express-router": "^0.0.1"
+   
+    
+  }
+
+
+
+
+
+  
 }

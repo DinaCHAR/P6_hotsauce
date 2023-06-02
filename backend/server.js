@@ -5,12 +5,21 @@
 //la méthode end de la réponse pour renvoyer une réponse de type string à l'appelant.
 
 //require la commande pour importer le package objet http qui permet de crée un serveur
-const http = require('http');
+///const http = require('http');
 //appeler la méthode "createServer" du package http
 //entre () inserer les deux requete quelle recois donc la requete et la reponse
-const server = http.createServer((req, res) => {
-    res.end('Voilà la réponse du serveur !');
-    
-});
+//const server = http.createServer((req, res) => {
+   // res.end('Voilà la réponse du serveur !');
+//});
+
+//server.listen(process.env.PORT || 3000);
+
+//apres
+const http = require('http');
+const app = require('./app');
+const path = require('path');
+
+app.set('port', process.env.PORT || 3000);
+const server = http.createServer(app);
 
 server.listen(process.env.PORT || 3000);
