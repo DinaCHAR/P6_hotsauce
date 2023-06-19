@@ -1,4 +1,4 @@
-/*const fs = require('fs');
+const fs = require('fs');
 
 const Sauce = require('./../models/Sauce');
 
@@ -113,4 +113,4 @@ exports.deleteSauce = (req, res, next) => {
       }
     })
     .catch((error) => res.status(500).json({ error }));
-};*/
+};

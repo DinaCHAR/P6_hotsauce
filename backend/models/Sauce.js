@@ -6,10 +6,10 @@
 */
 /* schema de donnée*/
 
-/*const sauceSchema = mongoose.Schema({
+/*const sauceSchema = mongoose.Schema({*/
 /*dicter les diff chemin besoin*/
 /*sans titre ne ne pourront enregistrer un string dans la base*/
- /* userId: { type: String, required: true },
+  /*userId: { type: String, required: true },
   name: { type: String, required: true },
   manufacturer: { type: String, required: true },
   description: { type: String, required: true },

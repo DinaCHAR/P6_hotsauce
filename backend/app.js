@@ -2,7 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const path = require('path');
-module.exports = router;
+const router = require('express-router');
+
 
 
 const Thing = require('./models/Sauce');
